@@ -54,7 +54,6 @@ int main() {
 	//                                       TASK NUMBER 6 {ENCAPSULATION}
 	//                                      working with the class PRODUCT
 	Product p; // object of class product
-	cout << "Enter Name: ";
         p.setName(""); // setter
 	p.setPrice(-50); // setter
 	p.setQuantity(-2); // setter
