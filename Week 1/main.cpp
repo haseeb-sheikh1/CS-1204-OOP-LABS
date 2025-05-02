@@ -11,7 +11,7 @@ int main() {
 	//                                         LAB {WEEK # 1 DATED: 18 APRIL 2025}
 	//                                        TASK NUMBER 1 {STUDENT RECORD SYSTEM}
 	//                                          working with the class STUDENT
-/*
+
 	Student std;   // creating an object of class student
 	std.getData(); // getting data
 	std.displayData(); // displaying data
@@ -49,23 +49,23 @@ int main() {
 	//                                         working with class CALCULATOR
 	Calculator cal; // object of type calculator
 	cal.setData(); // contains the working of the calculator
-*/
+
 
 	//                                       TASK NUMBER 6 {ENCAPSULATION}
 	//                                      working with the class PRODUCT
 	Product p; // object of class product
 	cout << "Enter Name: ";
-    p.setName(cin); // setter
-/*	p.setPrice(-50); // setter
+        p.setName(""); // setter
+	p.setPrice(-50); // setter
 	p.setQuantity(-2); // setter
 	
 	p.setName("Laptop"); // setter
 	p.setPrice(1200.50); // setter
 	p.setQuantity(2); // setter
-*/
+
 	cout << "Product: " << p.getName() << endl; // getter
-/*	cout << "Price: $" << p.getPrice() << endl; // getter
+	cout << "Price: $" << p.getPrice() << endl; // getter
 	cout << "Quantity: " << p.getQuantity() << endl; // getter
-*/
+
 	return 0;
 }
