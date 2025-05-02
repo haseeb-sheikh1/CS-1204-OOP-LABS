@@ -54,10 +54,11 @@ int main() {
 	//                                       TASK NUMBER 6 {ENCAPSULATION}
 	//                                      working with the class PRODUCT
 	Product p; // object of class product
+	// Inputting Invalid Data
         p.setName(""); // setter
 	p.setPrice(-50); // setter
 	p.setQuantity(-2); // setter
-	
+	// Inputting Valid Data
 	p.setName("Laptop"); // setter
 	p.setPrice(1200.50); // setter
 	p.setQuantity(2); // setter
