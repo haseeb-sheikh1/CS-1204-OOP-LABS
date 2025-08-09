@@ -42,7 +42,7 @@ int main (){
 
     // Displaying the validated student-specific information
     s1.displayStudentInfo();
-	/*
+	
 	
 	//                                            TASK NUMBER 2 ( MULTI-LEVEL INHERITANCE )
 	
@@ -115,6 +115,7 @@ int main (){
     myDevice.scanDocument();
     myDevice.printDocument();
     myDevice.startPhotocopy();
-    */
+    
 	return 0;
+
 }
